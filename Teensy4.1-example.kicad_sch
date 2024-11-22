@@ -12,179 +12,6 @@
 		(comment 3 "Yeah. I know the main MCU symbol is stupidly organized, but I got it from the ")
 	)
 	(lib_symbols
-		(symbol "APA102:opto_APA102-2020"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U100"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 0.9906 0.9906)
-					)
-				)
-			)
-			(property "Value" "APA102-2020"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 0.9906 0.9906)
-					)
-				)
-			)
-			(property "Footprint" "LEDs:APA102-2020"
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "opto_APA102-2020_0_1"
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "opto_APA102-2020_1_1"
-				(pin power_in line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "CKO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "CKI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Male"
 			(pin_names
 				(offset 1.016) hide)
@@ -11687,14 +11514,6 @@
 		(uuid "6e9df1b1-f3c2-4f06-b070-a094f202e5c0")
 	)
 	(no_connect
-		(at 323.215 149.86)
-		(uuid "6e9df1b1-f3c2-4f06-b070-a094f202e5c1")
-	)
-	(no_connect
-		(at 323.215 152.4)
-		(uuid "6e9df1b1-f3c2-4f06-b070-a094f202e5c2")
-	)
-	(no_connect
 		(at 248.285 407.67)
 		(uuid "7e289910-1ca4-42e0-a2b9-07b9cda476fb")
 	)
@@ -13004,16 +12823,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.035 149.86) (xy 302.895 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b8c353e-4a75-456c-b846-f3ab94e29e24")
-	)
-	(wire
-		(pts
 			(xy 58.42 231.14) (xy 73.025 231.14)
 		)
 		(stroke
@@ -13834,26 +13643,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 147.32) (xy 298.45 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eef7432-bcf5-4f49-98f9-e3ee5bda939f")
-	)
-	(wire
-		(pts
-			(xy 302.895 147.32) (xy 298.45 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eef7432-bcf5-4f49-98f9-e3ee5bda93a0")
-	)
-	(wire
-		(pts
 			(xy 130.81 121.92) (xy 135.89 121.92)
 		)
 		(stroke
@@ -14371,16 +14160,6 @@
 			(type default)
 		)
 		(uuid "9a112a70-dec3-4c4d-9449-aac5be220bde")
-	)
-	(wire
-		(pts
-			(xy 280.035 152.4) (xy 302.895 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b455f91-3ee0-4464-ac27-ab7570ab6496")
 	)
 	(wire
 		(pts
@@ -16926,17 +16705,6 @@
 		)
 		(uuid "5a4d5e28-0ba5-4db9-8e28-0b2237f38a6c")
 	)
-	(label "D5"
-		(at 282.575 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5be02c37-e31b-44e3-a81b-b55672e6c850")
-	)
 	(label "D8"
 		(at 174.625 224.79 0)
 		(fields_autoplaced yes)
@@ -17002,17 +16770,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a60c46d-8f9b-4af6-afb5-40c8c711a171")
-	)
-	(label "D2"
-		(at 282.575 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ff8bd27-0fb4-49ab-a010-442ab83a3aed")
 	)
 	(label "USB1_DP"
 		(at 140.335 132.08 0)
@@ -18135,85 +17892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "APA102:opto_APA102-2020")
-		(at 313.055 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "087ebe19-5f34-4510-9964-0571caf50eb2")
-		(property "Reference" "U1"
-			(at 313.055 141.5617 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-			)
-		)
-		(property "Value" "opto_APA102-2020"
-			(at 313.055 143.782 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-			)
-		)
-		(property "Footprint" "USB-C-Power-tester:APA102-2020"
-			(at 316.865 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.865 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 313.055 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba7f1e21-b69f-43d5-9599-81aecea65b5d")
-		)
-		(pin "2"
-			(uuid "0e2474fb-239a-4745-92fd-294f945e4391")
-		)
-		(pin "3"
-			(uuid "6e4b13b1-afb2-4283-aa65-a56a51002674")
-		)
-		(pin "4"
-			(uuid "8baad6e2-ec1c-41c3-af63-ee8d3ce5f237")
-		)
-		(pin "5"
-			(uuid "62ed1af1-6c56-49bc-8251-d4a930e23a03")
-		)
-		(pin "6"
-			(uuid "c1782288-6005-4354-b025-729339968735")
-		)
-		(instances
-			(project ""
-				(path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 273.685 118.11 0)
 		(unit 1)
@@ -18821,7 +18499,7 @@
 		(dnp no)
 		(uuid "14c091f5-203a-452e-b13c-9d047c427658")
 		(property "Reference" "Y2"
-			(at 354.33 427.482 90)
+			(at 341.63 427.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18830,7 +18508,7 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 354.076 429.768 90)
+			(at 337.566 429.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19603,72 +19281,6 @@
 			(project ""
 				(path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 323.215 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e540368-b5cd-4025-8a1c-d591d11d3c62")
-		(property "Reference" "#PWR0143"
-			(at 323.215 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 323.215 143.7155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.215 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.215 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 323.215 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dc87934-d6d0-4fc2-9ac8-a97e4c4d78cd")
-		)
-		(instances
-			(project ""
-				(path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
-					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -21233,72 +20845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 298.45 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412091dc-a269-40b7-a86f-0b523ac96586")
-		(property "Reference" "#PWR0142"
-			(at 298.45 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 298.45 160.7724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.45 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 298.45 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82ba3119-1d93-4f40-9dee-dc7394297004")
-		)
-		(instances
-			(project ""
-				(path "/66f2f548-0d73-423c-ac63-fd3dc2dd48b2"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 118.11 0)
 		(unit 1)
@@ -22565,7 +22111,7 @@
 		(dnp no)
 		(uuid "590c763d-13d1-41f0-b025-c962d2940067")
 		(property "Reference" "Y1"
-			(at 296.164 403.606 90)
+			(at 297.688 402.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22574,7 +22120,7 @@
 			)
 		)
 		(property "Value" "24MHz"
-			(at 294.132 405.892 90)
+			(at 295.656 404.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27864,7 +27410,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6a386ce-15fc-45d4-92cd-58bc881127f4")
 		(property "Reference" "Q1"
 			(at 158.115 108.403 90)
@@ -27874,8 +27419,8 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GDS_DMP3125L"
-			(at 158.115 111.1781 90)
+		(property "Value" "DMP3125L"
+			(at 158.242 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28626,7 +28171,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 156.7942 358.0635 90)
+			(at 152.908 359.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
