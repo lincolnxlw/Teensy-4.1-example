@@ -2,7 +2,7 @@
 *.lck
 *auto_saved_files#
 *~lock*
-*-backups/
+*backups/
 
 # Prerequisites
 *.d
